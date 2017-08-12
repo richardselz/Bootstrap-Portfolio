@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Bootstrap Portfolio</title>
+        <link rel="stylesheet" href="./assets/css/reset.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<style>
 			body{
@@ -18,12 +19,22 @@
 			a:hover img {
 			    opacity: 0.5;
 			}
+            h1, h2, h3, h4, h5 {
+                font-family: 'Georgia', Times, Times New Roman, serif;
+                font-weight: bold;
+            }
+            h1, h2 {
+                color: #4aaaa5;
+            }
+            .erase-padding {
+                padding: 0;
+            }
 		</style>
 	</head>
 	<body>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 erase-padding">
 					<div class="col-sm-12 col-md-4"  style="background-color: grey;">
 						Your Name
 					</div>
@@ -42,12 +53,12 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-12 col-md-9" style="background-color: blue;">
-					<h2>About Me</h2>
+					<h1>About Me</h1>
 					<hr>
 					Aute aute nisi ad elit irure in quis consectetur cupidatat qui ut do adipisicing ex aliquip magna exercitation aliquip duis exercitation veniam ea.
 				</div>
 				<div class="col-sm-12 col-md-3" style="background-color: green;">
-				Contact Me
+				<h2>Connect with Me</h2>
 				<hr>
 				<a href="https://www.github.com/richardselz/"><img src="assets/images/git.png" alt="GitHub" class="img-responsive"></a>
 				<a href="https://www.linkedin.com/in/selznick"><img src="assets/images/linked.png" alt="LinkedIn" class="img-responsive"></a>
