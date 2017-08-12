@@ -1,0 +1,100 @@
+body{
+	background-image: url("../images/background.png");
+}
+.erase-padding{
+	padding: 0;
+}
+.logo, .navbar-header {
+	background: #4aaaa5;
+	color: white !important;
+}
+.logo {
+	text-align: center;
+	height: 60px;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	line-height: 60px;
+	color: white;
+}
+h2, h3 {
+	color: #4aaaa5;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	height: 82px;
+	background: #777777;
+	border-top: 10px #4aaaa5 solid;
+	line-height: 75px;
+	font-size: 18px;
+	color: white;
+	clear: both;
+}
+.navbar-brand:hover{
+	background: #4aaaa5 !important;
+	color: white !important;
+}
+@media only screen and (min-width: 1200px) {
+	.first-main {
+		padding-right: 40px;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.second-main {
+		margin-top: 40px;
+	}
+}
+@media only screen and (max-width: 1018px) {
+	h1 {
+		font-size: 26px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-brand{
+		text-align: center;
+	}
+}
+main {
+	margin: 40px 20px;
+	float: left;
+}
+.first-main-test, .second-main {
+	background: white;
+}
+.push-left {
+	display: inline-block;
+	float: left;
+	padding-left: 0;
+}
+.social-image {
+	max-width: 120px;
+	margin: 10px 0 40px 30px;
+}
+a:hover img {
+    opacity: 0.5;
+    animation: spinnnnnning 1s linear 1;
+}
+@keyframes spinnnnnning {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg)}
+}
+.navbar-right {
+	padding-right: 40px;
+}
+.navbar-nav li {
+	float: right;
+}
+
+.hangman {
+    background-image: url("http://lorempixel.com/g/275/205/");
+    float: left;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
