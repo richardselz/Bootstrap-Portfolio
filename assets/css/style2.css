@@ -63,6 +63,8 @@ footer {
 main {
 	margin: 40px 20px;
 	float: left;
+	width: 100%;
+	padding-right: 40px;
 }
 .first-main-test, .second-main {
 	background: white;
@@ -97,4 +99,8 @@ a:hover img {
     border: 0;
     width: 100%;
     height: auto;
+}
+
+.col-xs-12 > a > .social-image {
+	margin-left: 10px;
 }
