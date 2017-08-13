@@ -1,139 +1,199 @@
 body {
-			background-image: url("assets/images/background.png");
-		}
-		h1, h2, h3, h4, h5 {
-			font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-			font-weight: bold;
-		}
-		h2, h3 {
-			color: #4aaaa5;
-		}
-		nav {
-			background-color: #fff;
-		}
-		h1 {
-			color: white;
-			line-height: 20px;
-		}
-		@media only screen and (max-width: 1390px) {
-			h1 {
-				font-size: 30px;
-			}
-		}
-		@media only screen and (max-width: 1181px) {
-			h1 {
-				font-size: 18px;
-			}
-		}
-		@media only screen and (max-width: 767px) {
-			h1 {
-				font-size: 36px;
-			}
-		}
-		nav > .row > .col-xs-12 {
-			text-align: center;
-			background: #4aaaa5;
-			height: 60px;
-		}
-		.navbar-header {
-			background: #4aaaa5;
-		}
-        .navbar-nav {
-            float: right;
-            font-size: 20px;
-        }
-		nav > .row > .col-md-4 {
-			background: lightblue;
-			text-align: right;
-			height: 60px;
-			line-height: 60px;
-		}
-		.col-md-4 > ul > li {
-			float: right;
-		}
-		/*.navigation {
-			margin-right: 30px;
-		}*/
+			background-image: url("../images/background.png");
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	font-weight: bold;
+}
+h2, h3 {
+	color: #4aaaa5;
+}
+nav {
+	background-color: #fff;
+}
+h1 {
+	color: white;
+	line-height: 20px;
+}
+@media only screen and (max-width: 1390px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 1181px) {
+	h1 {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	h1 {
+		font-size: 36px;
+	}
+}
+nav > .row > .col-xs-12 {
+	text-align: center;
+	background: #4aaaa5;
+	height: 60px;
+}
+.navbar-header {
+	background: #4aaaa5;
+}
+.navbar-nav {
+    float: right;
+    font-size: 20px;
+}
+nav > .row > .col-md-4 {
+	background: lightblue;
+	text-align: right;
+	height: 60px;
+	line-height: 60px;
+}
+.col-md-4 > ul > li {
+	float: right;
+}
+/*.navigation {
+	margin-right: 30px;
+}*/
 /*		.erase-padding {
-			padding: 0;
-		}*/ /* Can potentially just be changed to col-xs-12 */
-		main > .row {
-			margin: 10px 40px 35px;
-		}
-		.first-section {
-			padding-right: 40px;
-		}
-		@media only screen and (max-width: 992px){
-			.first-section {
-				padding: 0px;
-				margin-bottom: 30px;
-			}
-			.hangman {
-				margin-bottom: 40px;
-			}
-		}
-		.inner-first, .inner-second {
-			background: white;
-		}
-		.second-section{
-			padding: 0;
-			margin: 0;
-		}
-		footer {
-			text-align: center;
-			line-height: 50px;
-			height: 60px;
-			border-top: 10px #4aaaa5 solid;
-			background: #777777;
-			color: #cccccc;
-		}
-		.contactme {
-			margin-bottom: 20px;
-			float: left;
-		}
-		a:hover img {
-		    opacity: 0.5;
-		    animation: spinnnnnning 1s linear 1;
-		}
-		@keyframes spinnnnnning {
-			0% {transform: rotate(0deg);}
-			100% {transform: rotate(360deg)}
-		}
-		.hangman {
-		    background-image: url("http://via.placeholder.com/100x100");
-		    float: left;
-		    border: 0;
-		    height: 225px;
-		    width: 100%;
-		}
+	padding: 0;
+}*/ /* Can potentially just be changed to col-xs-12 */
+main > .row {
+	margin: 10px 40px 35px;
+}
+.first-section {
+	padding-right: 40px;
+}
+@media only screen and (max-width: 992px){
+	.first-section {
+		padding: 0px;
+		margin-bottom: 30px;
+	}
+	.hangman {
+		margin-bottom: 40px;
+	}
+}
+.inner-first, .inner-second {
+	background: white;
+}
+.second-section{
+	padding: 0;
+	margin: 0;
+}
+footer {
+	text-align: center;
+	line-height: 50px;
+	height: 60px;
+	border-top: 10px #4aaaa5 solid;
+	background: #777777;
+	color: #cccccc;
+}
+.contactme {
+	margin-bottom: 20px;
+	float: left;
+}
+a:hover img {
+    opacity: 0.5;
+    animation: spinnnnnning 1s linear 1;
+}
+@keyframes spinnnnnning {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg)}
+}
+.hangman {
+    background-image: url("http://via.placeholder.com/100x100");
+    float: left;
+    border: 0;
+    height: 225px;
+    width: 100%;
+}
 
-		.hangman:nth-child(2) {
-		    margin-left: 36px;
-		}
+.hangman:nth-child(2) {
+    margin-left: 36px;
+}
 
-		.hangman a {
-		    text-decoration: none;
-		    color: white;
-		}
+.hangman a {
+    text-decoration: none;
+    color: white;
+}
 
-		.hangman a:hover {
-		    text-decoration: underline;
-		    color: white;
-		}
+.hangman a:hover {
+    text-decoration: underline;
+    color: white;
+}
 
-		.hangman > a > h2 {
-		    border: 0;
-		    position: relative;
-		    top: 130px;
-		    width: 100%;
-		    text-align: center;
-		    height: 60px;
-		    font-size: 25px;
-		    line-height: 60px;
-		    background: #4aaaa5;
-		    color: white;
-		    font-weight: normal;
-		}
-		.portfolio-row{
-			margin-bottom: 40px;
-		}
+.hangman > a > h2 {
+    border: 0;
+    position: relative;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    font-size: 25px;
+    line-height: 60px;
+    background: #4aaaa5;
+    color: white;
+    font-weight: normal;
+}
+.portfolio-row{
+	margin-bottom: 40px;
+}
+input {
+    width: 100%;
+    height: 35px;
+    float: left;
+    border: 1px #cccccc solid;
+    padding-left: 10px;
+    color: #cccccc;
+}
+
+input:focus {
+	border: 1px #4aaaa5 solid;
+	outline: none;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+label {
+	float: left;
+	margin-bottom: 5px;
+}
+
+label:not(:first-child) {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+textarea {
+    float: left;
+    margin: 0 0 20px;
+    display: inline-block;
+    border: 1px #cccccc solid;
+    color: #cccccc;
+    padding-left: 10px;
+    width: 100%;
+}
+
+textarea:focus {
+	border: 1px #4aaaa5 solid;
+	outline: none;
+}
+
+textarea::placeholder {
+	color: #cccccc;
+}
+
+#submit {
+    width: 115px;
+    background: #4aaaa5;
+    border: 0;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+#submit:hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
