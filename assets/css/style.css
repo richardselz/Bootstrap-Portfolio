@@ -39,6 +39,9 @@ h1 {
 	.collapse.in {
 		float: left;
 	}
+	ul > li {
+		text-align: center;
+	}
 }
 .logo-color.col-xs-12 {
 	text-align: center;
