@@ -58,6 +58,9 @@ nav > .row > .col-md-4 {
 	height: 60px;
 	line-height: 60px;
 }
+.navbar-nav > li > a {
+	line-height: 30px;
+}
 .col-md-4 > ul > li {
 	float: right;
 }
